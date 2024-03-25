@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #FFD700, #FFA500);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 56px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Garante que a imagem seja exibida como um círculo */
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.btn {
+    display: block; /* Modificado para ser exibido como bloco */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 20px 15px; /* Reduzi um pouco o padding para diminuir o tamanho dos botões */
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Adicionei margem inferior para separar os botões */
+    transition: background-color 0.3s ease;
+    text-align: left; /* Alinha o texto dos botões à esquerda */
+}
+
+.btn img {
+    width: 20px; /* Define o tamanho do ícone */
+    margin-right: 45px; /* Adiciona um espaço entre o ícone e o texto */
+    vertical-align: middle; /* Alinha verticalmente o ícone com o texto */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
